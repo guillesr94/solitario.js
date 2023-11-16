@@ -1,0 +1,61 @@
+.container{
+  margin:10px;
+}
+
+.mazo-container{
+  width: 80px;
+  height: 70px;
+}
+
+.arrow-1{
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.arrow-2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.mazo{
+  width: 300px;
+  height: 100px;
+  display: flex;
+}
+
+.card{
+  height: 100px;
+  width: 100px;
+  
+}
+
+.margin-bottom{
+  margin-bottom: -70px;
+}
+
+.mazo{
+  position: absolute;
+}
+
+.lugar{
+  width: 200px;
+  height: 200px;
+}
+
+.cartas-ocultas{
+height: 100px;
+width: 100px;
+} 
+
+.cartas-ocultas > .card{
+  position: absolute;
+}
+
+.cartas-visibles > .card{
+  position: absolute;
+}
+
+.cartas-visibles{
+  height: 100px;
+  width: 100px;
+} 
